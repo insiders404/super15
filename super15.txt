@@ -1,0 +1,6 @@
+while [ true ]
+do
+x=`who|wc -l`
+echo "Number of users currently logged in :$x"
+sleep 60
+done
